@@ -1,0 +1,119 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.welcome-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    font-size: 36px;
+    text-align: center;
+    animation: fadeIn 1.5s ease-out both;
+}
+
+.hero-section {
+    background: linear-gradient(to right, #f8f8f8, #e0e0e0);
+    padding: 60px 20px;
+}
+
+.black-section {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    margin-top: 20vh;
+    animation: fadeIn 1.5s ease-out both;
+    animation-delay: 0.5s;
+}
+
+.black-text {
+    font-size: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-section {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    animation: fadeIn 1.2s ease-out both;
+}
+
+.section-title {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.about-text {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.competitions-list {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+}
+
+.competitions-list li {
+    margin: 8px 0;
+}
+
+footer {
+    background-color: #f2f2f2;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 14px;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(30px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+.contact-section {
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    animation: fadeIn 1.2s ease-out both;
+}
+
+.contact-text {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+.email-link {
+    color: #1a73e8;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.email-link:hover {
+    text-decoration: underline;
+}
+
+
